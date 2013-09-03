@@ -2,11 +2,11 @@
     <Kind>42</Kind>
     <Name>Presets</Name>
     <IsMinified>0</IsMinified>
-    <XPosition>305.000000000</XPosition>
-    <YPosition>223.000000000</YPosition>
+    <XPosition>348.000000000</XPosition>
+    <YPosition>304.000000000</YPosition>
 </Canvas>
 <Widget>
     <Kind>2</Kind>
     <Name>Testing</Name>
-    <Value>1</Value>
+    <Value>0</Value>
 </Widget>

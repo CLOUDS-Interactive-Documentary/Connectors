@@ -25,12 +25,12 @@ void ParticleConnection::updateConnections(){
 	ofFloatColor color =  ofFloatColor::azure.getLerped(ofFloatColor::azure, currentColor);
 	color.a = currentColor;
 
-//	connectionMeshRef->setColor(connectionVboIndex*2, ofFloatColor(currentColor,1.0,1.0,currentColor));
-	connectionMeshRef->setColor(connectionVboIndex*2, color);
+	connectionMeshRef->setColor(connectionVboIndex*2, ofFloatColor(currentColor, currentColor));
+//	connectionMeshRef->setColor(connectionVboIndex*2, color);
 	connectionMeshRef->setVertex(connectionVboIndex*2, a->position);
 
-//	connectionMeshRef->setColor(connectionVboIndex*2+1, ofFloatColor(currentColor,1.0,1.0,currentColor));
-	connectionMeshRef->setColor(connectionVboIndex*2+1, color);
+	connectionMeshRef->setColor(connectionVboIndex*2+1, ofFloatColor(currentColor,currentColor));
+//	connectionMeshRef->setColor(connectionVboIndex*2+1, color);
 	connectionMeshRef->setVertex(connectionVboIndex*2+1, b->position);
 
 	if(currentColor < 0){

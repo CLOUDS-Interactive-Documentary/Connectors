@@ -34,7 +34,7 @@ ParticleConnector::~ParticleConnector(){
 
 void ParticleConnector::update(){
 
-	position += direction*4;
+	position += direction;
 	
 	if(position.x > upperBounds.x) position.x = lowerBounds.x + (position.x - upperBounds.x);
 	if(position.y > upperBounds.y) position.y = lowerBounds.y + (position.y - upperBounds.y);

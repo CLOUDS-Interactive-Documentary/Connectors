@@ -1,10 +1,15 @@
 <Canvas>
     <Kind>42</Kind>
     <Name>Custom</Name>
-    <IsMinified>1</IsMinified>
-    <XPosition>1.000000000</XPosition>
-    <YPosition>1.000000000</YPosition>
+    <IsMinified>0</IsMinified>
+    <XPosition>1397.000000000</XPosition>
+    <YPosition>373.000000000</YPosition>
 </Canvas>
+<Widget>
+    <Kind>4</Kind>
+    <Name>Num Particles</Name>
+    <Value>588.000000000</Value>
+</Widget>
 <Widget>
     <Kind>2</Kind>
     <Name>Draw Connections</Name>
@@ -13,10 +18,15 @@
 <Widget>
     <Kind>4</Kind>
     <Name>Min Connection Distance</Name>
-    <Value>87.320198059</Value>
+    <Value>61.472908020</Value>
+</Widget>
+<Widget>
+    <Kind>4</Kind>
+    <Name>Boundary Size</Name>
+    <Value>228.571441650</Value>
 </Widget>
 <Widget>
     <Kind>4</Kind>
     <Name>Max Connections</Name>
-    <Value>2.906404018</Value>
+    <Value>6.630541801</Value>
 </Widget>
