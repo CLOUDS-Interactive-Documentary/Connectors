@@ -25,9 +25,6 @@ void CloudsVisualSystemConnectors::selfSetupGui(){
 	connectorGui->addSlider("Boundary Size", 100, 1000, &generator.boundarySize);
 	
 	connectorGui->addSlider("Max Connections", 1, 10, &generator.maxConnections);
-
-	
-//	ofAddListener(customGui->newGUIEvent, this, &CloudsVisualSystemConnectors::selfGuiEvent);
 	
 	guis.push_back(connectorGui);
 	guimap[connectorGui->getName()] = connectorGui;
