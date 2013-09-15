@@ -76,8 +76,6 @@ void CloudsVisualSystemConnectors::selfSetup(){
 		videoLoaded = true;
 	}
 	
-
-	
 	generator.setup();
 
 //	generator.setBounds(ofVec3f(-500,-500,-500), ofVec3f(500,500,500), 5);
