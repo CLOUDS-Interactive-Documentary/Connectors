@@ -2,13 +2,13 @@
     <Kind>42</Kind>
     <Name>Presets</Name>
     <IsMinified>0</IsMinified>
-    <XPosition>2.000000000</XPosition>
-    <YPosition>296.000000000</YPosition>
+    <XPosition>1485.000000000</XPosition>
+    <YPosition>1.000000000</YPosition>
 </Canvas>
 <Widget>
     <Kind>2</Kind>
     <Name>Rotating_Box</Name>
-    <Value>1</Value>
+    <Value>0</Value>
 </Widget>
 <Widget>
     <Kind>2</Kind>
@@ -18,5 +18,5 @@
 <Widget>
     <Kind>2</Kind>
     <Name>TestingCrap</Name>
-    <Value>0</Value>
+    <Value>1</Value>
 </Widget>
