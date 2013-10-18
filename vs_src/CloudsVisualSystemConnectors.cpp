@@ -25,9 +25,6 @@ void CloudsVisualSystemConnectors::selfSetupGui(){
 	connectorGui->addSlider("Boundary Size", 100, 1000, &generator.boundarySize);
 	
 	connectorGui->addSlider("Max Connections", 1, 10, &generator.maxConnections);
-
-	
-//	ofAddListener(customGui->newGUIEvent, this, &CloudsVisualSystemConnectors::selfGuiEvent);
 	
 	guis.push_back(connectorGui);
 	guimap[connectorGui->getName()] = connectorGui;
@@ -79,8 +76,6 @@ void CloudsVisualSystemConnectors::selfSetup(){
 		videoLoaded = true;
 	}
 	
-
-	
 	generator.setup();
 
 //	generator.setBounds(ofVec3f(-500,-500,-500), ofVec3f(500,500,500), 5);
@@ -118,8 +113,10 @@ void CloudsVisualSystemConnectors::selfUpdate(){
 // selfDraw draws in 3D using the default ofEasyCamera
 // you can change the camera by returning getCameraRef()
 void CloudsVisualSystemConnectors::selfDraw(){
+
 	
-	ofEnableAlphaBlending();
+	//ofEnableAlphaBlending();
+//	ofEnableBlendMode(OF_BLENDMODE_ADD);
 	glDisable(GL_DEPTH_TEST);
 	
 	generator.draw();
